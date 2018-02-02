@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(objintent);
     }// Click
     public void login(View view) {
-        Intent objintent = new Intent(MainActivity.this ,Main3Activity.class);
-        startActivity(objintent);
+        startActivity(new Intent(MainActivity.this,Main3Activity.class));
     }// Click
+
 }
